@@ -39,6 +39,10 @@
 
 
 
+
+
+
+
 body {
   padding: 2rem;
 }
@@ -58,7 +62,7 @@ div {
 }
 
 div:hover {
-  background: #0AF
+  /*background: #0AF*/
 }
 
 
