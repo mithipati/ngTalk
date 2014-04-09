@@ -9,7 +9,7 @@
 <body ng-controller="TodoController">
 
 
-  <div ng-show="present" ng-repeat="item in items" class="complete-{{item.done}}">
+  <div ng-repeat="item in items" class="complete-{{item.done}}">
     <input type="checkbox">
     {{item.detail}}
   </div>
