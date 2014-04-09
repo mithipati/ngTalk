@@ -8,16 +8,17 @@
 </head>
 <body ng-controller="TodoController">
 
+  <input class="mac" autofocus>
 
   <div ng-repeat="item in items" class="complete-{{item.done}}">
-    <input type="checkbox">
+    <input type="checkbox" ng-model="item.done">
     {{item.detail}}
   </div>
 
 
 
   <form ng-submit="addItem()">
-    <input class="mac" placeholder="Add items here" ng-model="newItem" autofocus>
+    <input class="mac" placeholder="Add items here" ng-model="newItem">
     <br>
     <button class="btn btn-success">Add +</button>
   </form>
