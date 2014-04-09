@@ -1,4 +1,4 @@
-<html>
+<html ng-app="resources">
 <head>
   <title>ngTalk</title>
   <!-- Vendor Link -->
@@ -6,23 +6,26 @@
   <!-- Local Link -->
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body ng-controller="ResourceController">
 
+  <h3>Resources | Links</h3>
 
+  <ul>
+    <li ng-repeat="link in linkList">
+      <a ng-href="{{link.url}}" target="_blank"> <span>{{link.name}}</span></a>
+    </li>
+  </ul>
 
-
-
-
-
-
-
-
-
-
+  ______________________
+  <br>
+  <br>
+  <a href="https://twitter.com/mithipati"><span>@mithipati</span></a><br><br>
+  <a href="http://mithipati.wordpress.com/"><span>My Blog</span></a>
 
 
 <!-- Vendor Scripts -->
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
 <!-- Local Script -->
 <script src="app.js"></script>
 </body>
