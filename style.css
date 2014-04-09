@@ -1,0 +1,34 @@
+div {
+  height: 10rem;
+  width: 10rem;
+  margin: 20px;
+  position: relative;
+  float: left;
+  background-color: #217F9C;
+  border-radius: 0.5rem;
+  box-shadow: inset 0 0 0 7px rgba(255,255,255,.5)
+}
+
+div:hover {
+  background: #0AF
+}
+
+
+.mac {
+  display: block;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 8px;
+  color: #333;
+  box-shadow:
+      inset 0 2px 0 rgba(0,0,0,.2),
+      0 0 4px rgba(0,0,0,0.1);
+}
+
+.mac:focus {
+  outline: none;
+  box-shadow:
+      inset 0 2px 0 rgba(0,0,0,.2),
+      0 0 4px rgba(0,0,0,0.1),
+      0 0 5px 1px #51CBEE;
+}
