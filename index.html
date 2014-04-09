@@ -2,24 +2,24 @@
 <head>
   <title>ngTalk</title>
   <!-- Vendor Link -->
-  <link src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
   <!-- Local Link -->
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body ng-controller="TodoController">
 
-  <input class="mac">
+  <div ng-show="present" ng-repeat="item in items">{{item.detail}}</div>
 
 
 
-
-
-
+  <input class="mac" placeholder="Add items here" ng-model="newItem">
+  <br>
+  <button class="btn btn-success">Add +</button>
 
 
   <!-- Vendor Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
   <!-- Local Script -->
   <script src="app.js"></script>
 </body>
