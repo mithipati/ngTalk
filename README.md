@@ -5,6 +5,13 @@
 
 Welcome to this brief introduction to Angular.
 
+To begin:
+
+1. Clone down this repository `git clone https://github.com/mithipati/ngTalk.git`
+2. Open 'ngTalkSlides' in Powerpoint and follow the slides
+    - Each slide lists the relevant git branch you should be on
+    - Remember to run 'git stash' before you checkout to another branch
+
 Below are useful resources I found along the way when exploring this new technology.
 
 + [egghead](https://egghead.io/)
