@@ -13,7 +13,7 @@ Welcome to this brief introduction to Angular.
     - Remember to run 'git stash' before you checkout to another branch
 
 
-Below are **very** useful resources I found along the way when exploring this new technology.
+Below are <em>very</em> useful resources I found along the way when exploring this new technology.
 
 + [egghead](https://egghead.io/)
 + [thinkster tutorial](http://www.thinkster.io/angularjs/GtaQ0oMGIl/a-better-way-to-learn-angularjs)
