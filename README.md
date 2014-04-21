@@ -3,7 +3,7 @@
 
 #### Hello, World!
 
-Welcome to this brief introduction to Angular.
+Welcome to this brief introduction to Angular. This introduction will walkthrough how to build a simple functional Todo application with very few lines of code.
 
 #### To begin:
 
